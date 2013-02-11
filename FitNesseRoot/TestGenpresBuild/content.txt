@@ -1,0 +1,5 @@
+!|import                |
+|GenPres.AcceptanceTests|
+
+!|script|GenPresFitnesseTest     |
+|check  |TestGenPresFitnesse|test|

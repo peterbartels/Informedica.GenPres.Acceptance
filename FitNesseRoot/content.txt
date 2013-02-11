@@ -1,0 +1,4 @@
+!define TEST_SYSTEM {slim}
+!define COMMAND_PATTERN {%m -r fitSharp.Slim.Service.Runner,C:\Development\GitHub\Informedica.GenPres.Acceptance\FitSharp\FitSharp.dll %p}
+!define TEST_RUNNER {C:\Development\GitHub\Informedica.GenPres.Acceptance\FitSharp\RunnerW.exe}
+!path C:\Development\GitHub\Informedica.GenPres.Acceptance\Source\Build\GenPres.AcceptanceTests.dll
