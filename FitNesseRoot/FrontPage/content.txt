@@ -1,7 +1,10 @@
-
-
-Welcome to GenPres!
+!2 Welcome To GenPres Acceptance Tests
 
 [[Test fitnesse is working][TestGenpresBuild]]
+
+!1 '''Tests:'''
+ * [[Login][LoginScenarios]]
+ * [[Patient Selection][SelectPatientScenarios]]
+ * [[Create Prescription Scenarios][PrescriptionScenarios]]
 
 !note Release ${FITNESSE_VERSION}
