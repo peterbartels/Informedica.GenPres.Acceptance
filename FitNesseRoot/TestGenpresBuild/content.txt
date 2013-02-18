@@ -2,4 +2,4 @@
 |GenPres.AcceptanceTests|
 
 !|script|GenPresFitnesseTest     |
-|check  |TestGenPresFitnesse|test|
+|check  |TestGenPresFitnesse|Fitnesse is working!|
