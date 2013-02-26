@@ -1,0 +1,1 @@
+java -cp fitnesse-standalone.jar fitnesse.FitNesse -p 200
