@@ -1,5 +1,0 @@
-!|import                |
-|GenPres.AcceptanceTests|
-
-!|script|GenPresFitnesseTest     |
-|check  |TestGenPresFitnesse|Fitnesse is working!|

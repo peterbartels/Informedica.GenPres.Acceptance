@@ -1,10 +1,11 @@
 !2 Welcome To GenPres Acceptance Tests
 
-[[Test fitnesse is working][TestGenpresBuild]]
+[[Test fitnesse is working][AllTestScenarios.TestGenpresBuild]]
+[[Global Import][GlobalImport]]
 
-!1 '''Tests:'''
- * [[Login][LoginScenarios]]
- * [[Patient Selection][SelectPatientScenarios]]
- * [[Create Prescription Scenarios][PrescriptionScenarios]]
+!1 '''[[All Test Scenarios][AllTestScenarios]]'''
+ * [[Login][AllTestScenarios.LoginScenarios]]
+ * [[Patient Selection][AllTestScenarios.SelectPatientScenarios]]
+ * [[Create Prescription Scenarios][AllTestScenarios.PrescriptionScenarios]]
 
 !note Release ${FITNESSE_VERSION}

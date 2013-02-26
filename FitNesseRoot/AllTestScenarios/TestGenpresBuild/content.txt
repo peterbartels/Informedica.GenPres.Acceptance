@@ -1,0 +1,4 @@
+!include .GlobalImport
+
+!|script|GenPresFitnesseTest     |
+|check  |TestGenPresFitnesse|Fitnesse is working!|

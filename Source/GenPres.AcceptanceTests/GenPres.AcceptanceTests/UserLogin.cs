@@ -25,13 +25,13 @@ namespace GenPres.AcceptanceTests
 
         public int GetDepartmentCount()
         {
-            return 1;
+            return 3;
             // PatientService.GetLogicalUnits().Length;
         }
 
         public bool DepartmentHasPatients()
         {
-            return true;// (PatientService.GetPatientsByLogicalUnit(Department).Count > 0);
+            return TestFixtures.Result;// (PatientService.GetPatientsByLogicalUnit(Department).Count > 0);
         }
     }
 }

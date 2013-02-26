@@ -1,0 +1,15 @@
+!include .GlobalImport
+
+!|script|UserLogin|
+
+|scenario|Given user has username _ and password _|username, password|
+|Username|@username                                                  |
+|Password|@password                                                  |
+
+|scenario|Then _ can authenticate with password _|username, password|
+|Password|@password                                                 |
+|check   |Autenticate user                       |true              |
+
+|scenario |Then _ can not authenticate with password _|username, password|
+|Password |@password                                                     |
+|check not|Autenticate user                           |true              |
