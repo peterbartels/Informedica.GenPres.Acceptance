@@ -1,1 +1,5 @@
-All tests scenarios
+!1 '''[[Test Scenarios][AllTestScenarios]]'''
+ * [[Test Fitnesse is working][AllTestScenarios.TestGenPresBuild]]
+ * [[Login Scenarios][AllTestScenarios.LoginScenarios]]
+
+ 
