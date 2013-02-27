@@ -1,8 +1,10 @@
+!|script |User |
+|Username|Peter|
+
+!|script|UserLogin|
+
 ![ script
     Given user has username Peter and password Secret
     Then Peter can authenticate with password Secret
     Then Peter can not authenticate with password xyz
 ]!
-
-!|script|GenPresFitnesseTest     |
-|check  |TestGenPresFitnesse|Fitnesse is working!|

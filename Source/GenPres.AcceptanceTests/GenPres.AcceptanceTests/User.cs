@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace GenPres.AcceptanceTests
 {
-    public class TestUser 
+    public class User : Informedica.GenPres.Business.Entities.User
     {
-        
+        public User() : base()
+        {
+            TestFixtures.TestUser = this;
+        }
     }
 }

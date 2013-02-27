@@ -9,5 +9,6 @@ namespace GenPres.AcceptanceTests
     public static class TestFixtures
     {
         public static bool Result { get; set; }
+        public static User TestUser { get; set; }
     }
 }

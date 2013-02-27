@@ -19,8 +19,7 @@ namespace GenPres.AcceptanceTests
 
         public bool AutenticateUser()
         {
-            //var loginService = new Presentation.LoginService();
-            return true;
+            return TestFixtures.TestUser.Username == Username && Password == "Secret";
         }
 
         public int GetDepartmentCount()
