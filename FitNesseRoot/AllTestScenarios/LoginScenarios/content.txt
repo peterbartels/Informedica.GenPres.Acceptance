@@ -1,5 +1,5 @@
-!|script |User |
-|Username|Peter|
+!|import                |
+|GenPres.AcceptanceTests|
 
 !|script|UserLogin|
 

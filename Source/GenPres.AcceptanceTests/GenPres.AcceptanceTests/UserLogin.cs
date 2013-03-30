@@ -1,25 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Autofac;
+using Autofac.Core;
+using Informedica.Data.Repositories;
+using Informedica.GenPres.Business.Entities;
+using Informedica.Service.Presentation;
 
 namespace GenPres.AcceptanceTests
 {
-    public class UserLogin
+    public class UserLogin : BaseAccceptanceTests
     {
         public int Department;
         public string Username;
         public string Password;
 
-        public UserLogin()
-        {
-            
-        }
-
         public bool AutenticateUser()
         {
-            return TestFixtures.TestUser.Username == Username && Password == "Secret";
+            var user = new User();
+            user.Username = "test";
+            user.PasswordHash = Password;
+
+            var userRepository = Container.Resolve<ILoginService>();
+            userRepository.AuthenticateUser(Username, Password);
+
+            return Password == "Secret";
         }
 
         public int GetDepartmentCount()

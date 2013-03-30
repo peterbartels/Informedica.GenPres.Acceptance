@@ -1,16 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Informedica.GenPres.Business.Entities;
 
-namespace GenPres.AcceptanceTests
+public static class EntityExtension
 {
-    public class User : Informedica.GenPres.Business.Entities.User
+    public static bool Test(this Entity blah)
     {
-        public User() : base()
-        {
-            TestFixtures.TestUser = this;
-        }
+        return true;
     }
 }
