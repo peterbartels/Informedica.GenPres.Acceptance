@@ -15,6 +15,7 @@ ErrorLogs
 *.sln.docstates
 
 # Build results
+[Ss]ystem/*
 [Dd]ebug/
 [Rr]elease/
 x64/
